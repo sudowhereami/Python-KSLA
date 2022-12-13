@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(199, 238, 252);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-left: 16px; 
+}
+
+.header {
+    background-color: rgb(51, 51, 51);
+    margin-top: 50px;
+}
+
+.header_inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header_logo {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.header_logo a {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header_links {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_links a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+.header_links button {
+    color: white;
+}
+
+.header_links a:hover {
+    background-color: rgb(64, 115, 192);
+}
+
+.info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 16px;
+    background-color: white;
+    text-align: justify;
+}
+
+/* ----- */
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-text {
+    padding: 25px;
+    background-color: white;
+    text-align: justify;
+}
+
+.sidebar {
+    /* padding: 16px; */
+    background-color: rgb(51, 51, 51);
+}
+
+.sidebar li {
+    list-style-type: none;
+}
+
+.sidebar a {
+    height: 25px;
+    padding: 16px;
+}
+
+.sidebar li:hover {
+    background-color: rgb(64, 115, 192);
+}
+
+.sidebar button {
+    color: white;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
